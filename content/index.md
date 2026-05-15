@@ -1,8 +1,10 @@
 ---
 publish: true
+status:
 ---
 
-This is just a test page.
+This is the Home Page
+
 
 [[Atlassian Teams 26 takeaways]]
 [[AI Consolidation]]
