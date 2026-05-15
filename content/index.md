@@ -3,7 +3,7 @@ publish: true
 status:
 ---
 
-This is the Home Page
+This is the Home Page I will decorate it shortly.
 
 
 [[Atlassian Teams 26 takeaways]]
