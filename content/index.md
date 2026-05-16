@@ -14,12 +14,8 @@ As of this writing My full Architecture will require a few things in Atlassian C
 * [[Jira Software]] Standard (although Premium is recommended for mature organizations)
 * [[Atlassian Guard]] Premium (for maximum protection, but you can go standard to start).
 
-You will note, Im not suggesting Any Addons, this is on purpose. 
-
 There are ways to achieve something similar using a different asset system, you will want [[Rovo]] with [[Teamwork Graph]] -- or if you're on Datacenter instead of cloud, you can get by with a lot of this, but obviously you won't have Rovo, so you have to make some other changes I'll write about that later.
 
-
-One off Articles:
+**One off Articles:**
 * [[My thoughts on AI]]
 * [[Dual-AI System]]
-* 
