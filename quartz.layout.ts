@@ -13,7 +13,32 @@ export const sharedPageComponents: SharedLayout = {
     },
   }),
 }
+import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./quartz/components/types"
 
+// 1. Define a clean, native Avatar component
+const Avatar: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
+  return (
+    <div class={`avatar-container ${displayClass ?? ""}`} style={{ 
+      display: "flex", 
+      justifyContent: "flex-start", 
+      margin: "1rem 0 1.5rem 0" 
+    }}>
+      <img 
+        src="./static/callenavatar.jpg" 
+        alt="CAllen Architecture Logo" 
+        style={{
+          width: "100px",
+          height: "100px",
+          borderRadius: "50%",
+          border: "2px solid var(--lightgray)",
+          objectFit: "cover",
+          boxShadow: "0 4px 6px rgba(0,0,0,0.1)"
+        }}
+      />
+    </div>
+  )
+}
+Avatar.css = ""
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
