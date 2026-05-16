@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "CAllen | Atlassian Systems Architecture"",
+    pageTitle: "CAllen | Atlassian Systems Architecture",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
