@@ -27,6 +27,20 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   left: [
     Component.PageTitle(),
+    Component.Html(`
+      <div style="margin-top: -1rem; margin-bottom: 1.5rem;">
+        <div style="display: flex; justify-content: flex-start; margin-bottom: 1rem;">
+          <img src="./static/callenavatar.jpg" 
+               alt="CAllen Architecture Logo" 
+               style="width: 100px; 
+                      height: 100px; 
+                      border-radius: 50%; 
+                      border: 2px solid var(--lightgray); 
+                      object-fit: cover;
+                      box-shadow: 0 4px 6px rgba(0,0,0,0.1);" />
+        </div>
+      </div>
+    `),
     Component.MobileOnly(Component.Spacer()),
     Component.Flex({
       components: [
