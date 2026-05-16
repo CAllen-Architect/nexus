@@ -12,6 +12,10 @@ publish: true
 > [!ABSTRACT] Executive Concept
 > Integrating **Atlassian Rovo** and **Microsoft 365 Copilot** (or Gemini) to create a unified intelligence layer. Rovo manages the "Internal Truth" (Jira/Assets), while Copilot manages the "Communication & Productivity" layer (M365).
 ---
+
+
+Atlassian Tools are the best in the world (or very close) in several areas, but e-mail, chat, creating files for Documents, spreadsheets, Presentations, meetings, and Video Editing aren't its strong Points, so as we consolidate, we need to have at LEAST two AI "Ecosystems", picking two and sticking to it is the name of the game, thanks to [[Teamwork Graph]]
+
 ## 🏗️ Operational Roles
 ### 1. Atlassian Rovo (The Librarian)
 - **Domain**: Jira, Confluence, Assets, GitHub integrations.
