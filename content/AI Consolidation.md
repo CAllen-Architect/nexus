@@ -8,6 +8,10 @@ status: Under-Review
 publish: true
 ---
 
+> [!NOTE] Update for two
+> Rovo is great, it does requirements management, knowledge management, an excellent asset database. But it doesn't do everything. Its missing an e-mail client, a communications platform (like teams or Slack) it doesn't have shareable files systems -- So we need to add either Microsoft Co-Pilot for 365 or Google Gemini for Business.
+
+
 # 🎯 AI Consolidation: The Rovo-Centric Play
 > [!ABSTRACT] Rationale
 > Removing Claude Code to reduce "Tool Fatigue" and context switching. By leveraging the **Teamwork Graph** and **Assets**, Rovo becomes the singular intelligence layer that understands both the *why* (Jira) and the *what* (Code/Infrastructure).
