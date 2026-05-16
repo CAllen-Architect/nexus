@@ -4,7 +4,9 @@ publish: true
 status:
 ---
 
-This is the Home Page I will decorate it shortly.
+> [!NOTE] About this 
+> things
+
 
 
 [[Atlassian Teams 26 takeaways]]
