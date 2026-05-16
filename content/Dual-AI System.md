@@ -8,17 +8,17 @@ tags:
 status: Evaluation
 publish: true
 ---
-# 🤖 Dual-AI System: Rovo + Copilot OR Gemini
+# 🤖 Dual-AI System: Rovo + Copilot (OR Gemini)
 > [!ABSTRACT] Executive Concept
 > Integrating **Atlassian Rovo** and **Microsoft 365 Copilot** (or Gemini) to create a unified intelligence layer. Rovo manages the "Internal Truth" (Jira/Assets), while Copilot manages the "Communication & Productivity" layer (M365).
 ---
 ## 🏗️ Operational Roles
 ### 1. Atlassian Rovo (The Librarian)
-- **Domain**: Jira, Confluence, Assets, Slack/GitHub integrations.
+- **Domain**: Jira, Confluence, Assets, GitHub integrations.
 - **Strength**: Understanding the **Teamwork Graph**. It knows *who* owns a server and *why* a ticket was closed in 2018.
 - **Key Task**: Surfacing "Shadow Knowledge" trapped in 10 years of Assets technical debt.
 ### 2. M365 Copilot (The Executive Assistant)
-- **Domain**: Outlook, Teams, Excel, Word.
+- **Domain**: Outlook, Teams, Excel, Word, Powerpoint.
 - **Strength**: Synthesis of communication. It knows *what* was said in the morning meeting and *how* to draft the vendor email.
 - **Key Task**: Drafting reports based on data exports and managing meeting follow-ups for the IT Implementation team.
 ---
