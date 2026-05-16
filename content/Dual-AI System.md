@@ -5,15 +5,12 @@ tags:
   - Copilot
   - Strategy
   - Enterprise-Architecture
-status: Concept
+status: Evaluation
 publish: true
 ---
->[!ABSTRACT] Choose your Adventure.
->In our example we're using Copilot, but you could replace it with Gemini if you're using an all google stack for "The Executive Assistant" Layer.
-
-# 🤖 Dual-AI System: Rovo + Copilot
+# 🤖 Dual-AI System: Rovo + Copilot OR Gemini
 > [!ABSTRACT] Executive Concept
-> Integrating **Atlassian Rovo** and **Microsoft 365 Copilot** to create a unified intelligence layer. Rovo manages the "Internal Truth" (Jira/Assets), while Copilot manages the "Communication & Productivity" layer (M365).
+> Integrating **Atlassian Rovo** and **Microsoft 365 Copilot** (or Gemini) to create a unified intelligence layer. Rovo manages the "Internal Truth" (Jira/Assets), while Copilot manages the "Communication & Productivity" layer (M365).
 ---
 ## 🏗️ Operational Roles
 ### 1. Atlassian Rovo (The Librarian)
@@ -30,19 +27,14 @@ publish: true
 > Use **Atlassian Rovo Agents** to fetch real-time Asset data and pipe it into **Copilot** via the Microsoft Graph Connectors. This allows Copilot to answer questions like "What is the budget impact of our expiring Microsoft licenses?" using data lived in Assets.
 ### 🔍 AI Responsibility Matrix
 
-| Capability | Primary AI | Secondary AI | Data Source |
-| :--- | :--- | :--- | :--- |
-| **Asset Discovery** | Rovo | Copilot (via Sync) | Assets Schema |
-| **Meeting Minutes** | Copilot | Rovo (via Action Items) | Teams / Outlook |
-| **Technical Docs** | Rovo | Copilot | Confluence |
-| **Project Status** | Rovo | Copilot | Jira |
+| Capability          | Primary AI | Secondary AI            | Data Source     |
+| :------------------ | :--------- | :---------------------- | :-------------- |
+| **Asset Discovery** | Rovo       | Copilot (via Sync)      | Assets Schema   |
+| **Meeting Minutes** | Copilot    | Rovo (via Action Items) | Teams / Outlook |
+| **Technical Docs**  | Rovo       | Copilot                 | Confluence      |
+| **Project Status**  | Rovo       | Copilot                 | Jira            |
 
 ---
-## 📋 Ongoing Tasks
-- [ ] **Connector Setup**: Explore the **Microsoft Graph Connector for Confluence** to let Copilot "read" your Rovo-curated docs.
-- [ ] **Agent Design**: Build a Rovo Agent specifically for "Asset Debt Cleanup" to identify unlinked objects.
-- [ ] **Security Review**: Ensure the **EntraID** permissions are tight, as both AIs will respect the permissions of the user.
-- [ ] **Prompt Library**: Create a shared Obsidian note for "Dual-AI Prompts" that switch between the two systems.
 ---
 ## 🕸️ Relationship Topology
 ```mermaid
