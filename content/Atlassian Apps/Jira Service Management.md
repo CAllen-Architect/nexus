@@ -1,5 +1,5 @@
 ---
-title: Jira Service Management | CAA
+title: Jira Service Management
 tags:
   - Atlassian
   - Jira-Service-Management
