@@ -1,9 +1,14 @@
-// Inject Avatar directly under the custom title in the sidebar
+// Bind the avatar layout cleanly to the page title container
 .page-title {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  
+  display: grid !important;
+  grid-template-columns: 1fr;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+
+  a {
+    display: block;
+  }
+
   &::after {
     content: "";
     display: block;
@@ -15,6 +20,5 @@
     border-radius: 50%;
     border: 2px solid var(--lightgray);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin-top: 0.5rem;
   }
 }
