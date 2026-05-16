@@ -3,11 +3,10 @@ tags:
   - AI-Strategy
   - Rovo
   - Consolidation
-  - DevEx
+  - Assets
 status: Under-Review
 publish: true
 ---
-
 
 # 🎯 AI Consolidation: The Rovo-Centric Play
 > [!ABSTRACT] Rationale
@@ -27,11 +26,11 @@ publish: true
 > **AQL Audit:** `objectType = "Applications" AND "Technical Lead" IS EMPTY` (Fix these so Rovo knows who to "ask" for help).
 ### 🔍 Consolidation Impact Matrix
 
-| Capability | Former Method (Claude) | New Method (Rovo) | Benefit |
-| :--- | :--- | :--- | :--- |
-| **Code Refactor** | High Logic / Zero Context | Moderate Logic / **Deep Context** | Fewer "hallucinated" dependencies. |
-| **Asset Linking** | Manual Copy-Paste | **Native Teamwork Graph** | Real-time infrastructure awareness. |
-| **Cost** | Additional Seat Price | Included in Atlassian Tier | Significant OpEx reduction. |
+| Capability        | Former Method (Claude)    | New Method (Rovo)                 | Benefit                             |
+| :---------------- | :------------------------ | :-------------------------------- | :---------------------------------- |
+| **Code Refactor** | High Logic / Zero Context | Moderate Logic / **Deep Context** | Fewer "hallucinated" dependencies.  |
+| **Asset Linking** | Manual Copy-Paste         | **Native Teamwork Graph**         | Real-time infrastructure awareness. |
+| **Cost**          | Additional Seat Price     | Included in Atlassian Tier        | Significant OpEx reduction.         |
 
 ---
 ## 📋 Ongoing Tasks
