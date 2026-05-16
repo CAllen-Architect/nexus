@@ -5,12 +5,10 @@
   gap: 0.75rem;
   margin-bottom: 1.5rem;
 
-  // This micro-targets the anchor link text to keep typography clean
   a {
     display: block;
   }
 
-  // Natively appends the avatar container directly inside the title block
   &::after {
     content: "";
     display: block;
