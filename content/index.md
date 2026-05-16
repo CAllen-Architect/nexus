@@ -17,7 +17,5 @@ As of this writing My full Architecture will require a few things:
 There are ways to achieve something similar using a different asset system, you will want [[Rovo]] with [[Teamwork Graph]] 
 
 
-
 One off Articles:
-[[Atlassian Teams 26 takeaways]]
-[[AI Consolidation]]
+[[My thoughts on AI]]
