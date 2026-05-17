@@ -18,9 +18,9 @@ Atlassian Tools are the best in the world (or very close) in several areas, but 
 
 ## 🏗️ Operational Roles
 ### 1. Atlassian Rovo (The Librarian)
-- **Domain**: Jira, Confluence, Assets, GitHub integrations.
+- **Domain**: Jira, Confluence, Assets, Git integrations.
 - **Strength**: Understanding the **Teamwork Graph**. It knows *who* owns a server and *why* a ticket was closed in 2018.
-- **Key Task**: Surfacing "Shadow Knowledge" trapped in 10 years of Assets technical debt.
+- **Key Task**: Surfacing "Shadow Knowledge" trapped in  years of technical debt.
 ### 2. M365 Copilot (The Executive Assistant)
 - **Domain**: Outlook, Teams, Excel, Word, Powerpoint.
 - **Strength**: Synthesis of communication. It knows *what* was said in the morning meeting and *how* to draft the vendor email.
@@ -39,6 +39,13 @@ Atlassian Tools are the best in the world (or very close) in several areas, but 
 | **Project Status**  | Rovo       | Copilot                 | Jira            |
 
 ---
+
+### What about other tools?
+
+Obviously its unlikely that everything you Have everything in only two platforms, -- Neither Microsoft nor Atlassian has a Great HR platform (natively) nor does google have a great ERP.
+This is where Assets can act as a bridge -- you can create entries pointing to data that will provide context, but I'd recommend building and updating those entries in an automated fashion, for example spitting out a vendor list from your Vendor Engagement software, with everything you would need to point it to your applications, so that your internal employees can log tickets against the applications, and then at the end you can have Rovo parse "what sort of issues have employees had with products from Vendor X"
+
+
 ---
 ## 🕸️ Relationship Topology
 ```mermaid
