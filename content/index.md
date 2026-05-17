@@ -8,7 +8,10 @@ status: Drafting
 >[!NOTE] About this project 
 > Various Musing about how to build an "Ultimate" Version of what an Organization needs to run as an AI Native Organization in an Atlassian Suite.
 
-As of this writing My full Architecture will require a few things in Atlassian Cloud:
+
+As of this writing My full Architecture guide will require a few things in Atlassian Cloud:
+>[!NOTE] Assets is Changing
+>After speaking to the Booth at Atlassian Teams 26, It seems that Atlassian is removing the dependency of having Jira Service Management Premium, to Assets. -- This is fantastic news, and when it arrives I'll have a lot of things to update. 
 
 * [[Jira Service Management]] Premium (you will need Assets)
 * [[Confluence]] Standard
