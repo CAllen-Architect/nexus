@@ -4,6 +4,7 @@ publish: true
 status: Drafting
 ---
 <img src="https://callen-architect.github.io/nexus/static/callenavatar.jpg" style="width: 120px; height: 120px; border-radius: 50%; border: 2px solid var(--lightgray); box-shadow: 0 4px 6px rgba(0,0,0,0.1); float: left; margin: 0 1.5rem 1rem 0;" alt="CAllen Avatar" /> 
+
 >[!NOTE] About this project 
 > Various Musing about how to build an "Ultimate" Version of what an Organization needs to run as an AI Native Organization in an Atlassian Suite.
 
