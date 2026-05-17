@@ -8,8 +8,8 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "CAllen | Atlassian Systems Architect",
-    pageTitleSuffix: "",
+    pageTitle: "CAllen",
+    pageTitleSuffix: " | Atlassian Systems Architect",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
